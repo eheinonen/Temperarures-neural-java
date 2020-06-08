@@ -1,4 +1,4 @@
-# Temperarures-neural-java
+# Temperatures-neural-java
 This is a regression model to convert °C temperatures to °F. It has only one input and one output. It uses a small set (7 pairs of °C and °F temperatures) of training data to learn the weight and bias in the model.
 
 I was going through some Tensorflow tutorial and this kind of neural network was one of the first examples. As I had just finished self-studying a Java course and had read about the theory of neural networks, I wanted to try to build an example by hand. The error function is differentiated with respect to the weight and the bias and these derivatives are used for backpropagation to train the network.
